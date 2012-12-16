@@ -4,11 +4,12 @@ The "Let it snow" is a lightweight, easy to modify jQuery plugin to add unobtrus
 [Demo page](http://drawain.hu/let-it-snow-jquery-plugin/)
 
 ##Features
+- Only 0.6kb gzipped
 - CSS3 animation (hardware accelerated on some browser)
-- Only 0.4kb gzipped
-- Disabled pointer events to prevent blocking the UI
+- Mobile support
 - JavaScript animation fallback if there is no CSS animation
 - Internet Explorer support (down to IE7)
+- Disabled pointer events to prevent blocking the UI
 - Attach to any container, not just the body
 
 ##Prerequisites
@@ -39,6 +40,8 @@ If you do not want to use the prefixfree, you can modify the css by adding propr
 You can use on other container elements, for eg. a div with the id "box":
 
 	$('#box').letItSnow();
+
+It's advised to add **overflow-x: hidden** or **overflow: hidden** to the container class!
 
 ##Configuration
 You have to dive a little into the source if you want to modify the animation.
