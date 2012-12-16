@@ -13,7 +13,7 @@ The "Let it snow" is a lightweight, easy to modify jQuery plugin to add unobtrus
 
 ##Prerequisites
 - You have to use [-prefix-free](http://leaverou.github.com/prefixfree/) JS library to support multiple browsers or add CSS prefixes in letitsnow.css
-- The plugin uses Modernizr to detect CSS animation support
+- The plugin uses [Modernizr](http://modernizr.com/) to detect CSS animation support
 
 ##Using
 ###Add prerequisites:
