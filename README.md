@@ -43,7 +43,7 @@ You can use on other container elements, for eg. a div with the id "box":
 ##Configuration
 You have to dive a little into the source if you want to modify the animation.
 
-###Slower snowflakes
+###Slower or faster snowflakes
 In the *letitsnow.css* you have to modify the rules started with **.let_it_snow.snow_duration_**. The plugin randomly choose one of these rules to create snowflake animation. You have to modify *letitsnow.js* to set the animation durations for IE (search for **.animate**)
 
 ###Shorter or longer snowflake routes
