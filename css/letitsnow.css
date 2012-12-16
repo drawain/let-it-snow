@@ -1,0 +1,107 @@
+.let_it_snow {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	animation-timing-function: ease-out;
+	z-index: 1000;
+	pointer-events: none;
+}
+
+.let_it_snow.snow_type_1 {
+	background: transparent url(../images/snow1.png) center center no-repeat;
+}
+
+.let_it_snow.snow_type_2 {
+	background: transparent url(../images/snow2.png) center center no-repeat;
+}
+
+.let_it_snow.snow_duration_1 {
+	animation-duration: 8s;
+}
+
+.let_it_snow.snow_duration_2 {
+	animation-duration: 7s;
+}
+
+.let_it_snow.snow_duration_3 {
+	animation-duration: 6s;
+}
+
+.let_it_snow.snow_duration_4 {
+	animation-duration: 5s;
+}
+
+.let_it_snow.snow_duration_5 {
+	animation-duration: 4s;
+}
+
+.let_it_snow.snow_delay_1 {
+	animation-delay: 5s;
+}
+
+.let_it_snow.snow_delay_2 {
+	animation-delay: 4s;
+}
+
+.let_it_snow.snow_delay_3 {
+	animation-delay: 3s;
+}
+
+.let_it_snow.snow_delay_4 {
+	animation-delay: 2s;
+}
+
+.let_it_snow.snow_delay_5 {
+	animation-delay: 1s;
+}
+
+.let_it_snow.snow_anim_1 {
+	animation-name: snow_anim_1, snow_anim_fade;
+}
+
+.let_it_snow.snow_anim_2 {
+	animation-name: snow_anim_2, snow_anim_fade;
+}
+
+.let_it_snow.snow_anim_3 {
+	animation-name: snow_anim_3, snow_anim_fade;
+}
+
+.let_it_snow.snow_anim_4 {
+	animation-name: snow_anim_4, snow_anim_fade;
+}
+
+.let_it_snow.snow_anim_5 {
+	animation-name: snow_anim_5, snow_anim_fade;
+}
+
+@keyframes snow_anim_fade {
+    0%   { opacity: 1; }
+    60%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes snow_anim_1 {
+    0%   { transform: translate(0, 0) rotate(0); }
+    100% { transform: translate(-70px, 630px) rotate(70deg); }
+}
+
+@keyframes snow_anim_2 {
+    0%   { transform: translate(0, 0) rotate(0); }
+    100% { transform: translate(70px, 640px) rotate(-70deg); }
+}
+
+@keyframes snow_anim_3 {
+    0%   { transform: translate(0, 0) rotate(0); }
+    100% { transform: translate(30px, 550px) rotate(45deg); }
+}
+
+@keyframes snow_anim_4 {
+    0%   { transform: translate(0, 0) rotate(0); }
+    100% { transform: translate(-30px, 600px) rotate(-45deg); }
+}
+
+@keyframes snow_anim_5 {
+    0%   { transform: translate(0, 0) rotate(0); }
+    100% { transform: translate(0px, 660px) rotate(50deg); }
+}
