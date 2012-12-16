@@ -1,3 +1,10 @@
+/*!
+ * Let it snow
+ * http://drawain.hu/let-it-snow-jquery-plugin
+ * MIT licensed
+ *
+ * Copyright (C) 2012 Fincza András, http://drawain.hu
+ */
 (function($, window, undefined) {
 	"use strict";
 
