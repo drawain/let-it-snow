@@ -41,7 +41,7 @@ You can use on other container elements, for eg. a div with the id "box":
 
 	$('#box').letItSnow();
 
-It's advised to add **overflow-x: hidden** or **overflow: hidden** to the container class!
+It's advised to add **overflow-x: hidden** or **overflow: hidden** to the container element!
 
 ##Configuration
 You have to dive a little into the source if you want to modify the animation.
