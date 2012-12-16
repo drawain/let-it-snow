@@ -1,6 +1,8 @@
 #Let it snow
 The "Let it snow" is a lightweight, easy to modify jQuery plugin to add unobtrusive, non-blocking CSS3 snowfall to your page. It has JavaScript animation fallback to support legacy browsers (down to IE7).
 
+[Demo page](http://drawain.hu/let-it-snow-jquery-plugin/)
+
 ##Features
 - CSS3 animation (hardware accelerated on some browser)
 - Only 0.4kb gzipped
